@@ -1,0 +1,118 @@
+SOLUTION
+
+#ASSISTED PROBLEMS
+Q1. Welcome to Bridgelabz
+public class Welcome {
+    public static void main(String[] args) {
+        System.out.println("Welcome to Bridgelabz!");
+    }
+}
+
+Q2. Add Two Numbers
+import java.util.Scanner;
+public class AddNumbers {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double a = sc.nextDouble();
+        double b = sc.nextDouble();
+        System.out.println("Sum = " + (a + b));
+    }
+}
+
+Q3. Celsius to Fahrenheit Conversion
+import java.util.Scanner;
+public class CelsiusToFahrenheit {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double celsius = sc.nextDouble();
+        double fahrenheit = (celsius * 9 / 5) + 32;
+        System.out.println("Temperature in Fahrenheit = " + fahrenheit);
+    }
+}
+
+Q4. Area of a Circle
+import java.util.Scanner;
+public class AreaOfCircle {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double radius = sc.nextDouble();
+        double area = Math.PI * radius * radius;
+        System.out.println("Area of Circle = " + area);
+    }
+}
+
+Q5. Volume of a Cylinder
+import java.util.Scanner;
+public class VolumeOfCylinder {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double radius = sc.nextDouble();
+        double height = sc.nextDouble();
+        double volume = Math.PI * radius * radius * height;
+        System.out.println("Volume of Cylinder = " + volume);
+    }
+}
+
+
+#SELF PROBLEMS
+Q1. Calculate Simple Interest
+import java.util.Scanner;
+public class SimpleInterest {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double principal = sc.nextDouble();
+        double rate = sc.nextDouble();
+        double time = sc.nextDouble();
+        double simpleInterest = (principal * rate * time) / 100;
+        System.out.println("Simple Interest = " + simpleInterest);
+    }
+}
+
+Q2. Perimeter of a Rectangle
+import java.util.Scanner;
+public class RectanglePerimeter {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double length = sc.nextDouble();
+        double width = sc.nextDouble();
+        double perimeter = 2 * (length + width);
+        System.out.println("Perimeter of Rectangle = " + perimeter);
+    }
+}
+
+Q3. Power Calculation
+import java.util.Scanner;
+public class PowerCalculation {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double base = sc.nextDouble();
+        double exponent = sc.nextDouble();
+        double result = Math.pow(base, exponent);
+        System.out.println("Result = " + result);
+    }
+}
+
+Q4. Calculate Average of Three Numbers
+import java.util.Scanner;
+public class AverageOfThree {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double a = sc.nextDouble();
+        double b = sc.nextDouble();
+        double c = sc.nextDouble();
+        double average = (a + b + c) / 3;
+        System.out.println("Average = " + average);
+    }
+}
+
+Q5. Convert Kilometers to Miles
+import java.util.Scanner;
+public class KilometerToMiles {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double kilometers = sc.nextDouble();
+        double miles = kilometers * 0.621371;
+        System.out.println("Distance in miles = " + miles);
+    }
+}
+
